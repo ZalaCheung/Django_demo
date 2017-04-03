@@ -25,7 +25,7 @@ SECRET_KEY = '-a_2+a-hc^synln4_(031&)rw_z$l!js$ssgpg^_r6j0n+ns3v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["10.0.2.2","127.0.0.1","168.122.200.23"]
+ALLOWED_HOSTS = ["10.0.2.2","127.0.0.1","168.122.200.23","52.33.216.123"]
 
 
 # Application definition
@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'OPTIONS':{
-            'read_default_file':'/Users/ZalaCheung/PycharmProjects/Andriod_hw6/my.cnf',
+            'read_default_file':'/home/ec2-user/Django_demo/my.cnf',
         },
         # 'NAME': os.path.join(BASE_DIR, 'db.mysql'),
     }
